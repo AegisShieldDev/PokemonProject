@@ -20,6 +20,7 @@ public class PokemonPanel extends JPanel
 	private JLabel evolvableLable;
 	private JLabel modiferLabel;
 	private JLabel iconLabel;
+	private JLabel numberLabel;
 	
 	private JCheckBox evolvableBox;
 	
@@ -50,7 +51,7 @@ public class PokemonPanel extends JPanel
 		appLayout = new SpringLayout();
 		
 		evolvableBox = new JCheckBox();
-		nameField = JTextField("name");
+		nameField = new JTextField("name");
 		numberField = new JTextField("##");
 		attackField = new JTextField("ap");
 		healthField = new JTextField("hp");
@@ -59,11 +60,11 @@ public class PokemonPanel extends JPanel
 		iconLabel = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
 		
 		nameLabel = new JLabel("name");
-		evolvableLabel new JLabel("evolvable");
+		evolvableLable = new JLabel("evolvable");
 		numberLabel = new JLabel("");
 		attackLabel = new JLabel("");
 		healthLabel = new JLabel("");
-		modifierLabel = new JLabel("");
+		modiferLabel = new JLabel("");
 		
 		pokedexDropdown = new JComboBox();
 		clearButton = new JButton("clear");
@@ -99,7 +100,7 @@ public class PokemonPanel extends JPanel
 	
 	private void updatTypePanels()
 	{
-		String[] types = appController.getPokedex().get(pokedexDropown.getSelectedIndex()).getPokemonTypes();
+		String[] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
 		
 		if(types[0].equals("Flying"))
 		{
@@ -154,7 +155,7 @@ public class PokemonPanel extends JPanel
 		{
 			public void actionPerformed(ActionEvent selection)
 			{
-				int selectedPokemonIndex = pokedexDpdown.getSelectedIndex();
+				int selectedPokemonIndex = pokedexDropdown.getSelectedIndex();
 				updatePokedexInfo(selectedPokemonIndex);
 				updateImage();
 				updateTypePanels();
