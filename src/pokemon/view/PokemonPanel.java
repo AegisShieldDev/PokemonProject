@@ -46,6 +46,7 @@ public class PokemonPanel extends JPanel
 	public PokemonPanel(PokemonController appController)
 	{
 		super();
+		setBackground(new Color(135, 206, 250));
 		this.appController = appController;
 		
 		appLayout = new SpringLayout();
@@ -58,6 +59,7 @@ public class PokemonPanel extends JPanel
 		modifierField = new JTextField("mod");
 		
 		iconLabel = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
+		iconLabel.setBackground(new Color(135, 206, 250));
 		
 		nameLabel = new JLabel("name");
 		evolvableLable = new JLabel("evolvable");
@@ -80,7 +82,7 @@ public class PokemonPanel extends JPanel
 		setupComboBox();
 		setupTypePanels();
 		setupPanel();
-		setupLayout();
+		//setupLayout();
 		setupListeners();
 	}
 	
@@ -98,7 +100,7 @@ public class PokemonPanel extends JPanel
 		fourthType.setSize(50,50);
 	}
 	
-	private void updatTypePanels()
+	private void updateTypePanels()
 	{
 		String[] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
 		
@@ -157,11 +159,38 @@ public class PokemonPanel extends JPanel
 			{
 				int selectedPokemonIndex = pokedexDropdown.getSelectedIndex();
 				updatePokedexInfo(selectedPokemonIndex);
-				updateImage();
-				updateTypePanels();
+				//updateImage();
+				//updateTypePanels();
 				repaint();
 			}
 		});
+	}
+	
+	private void setupPanel()
+	{
+		this.setLayout(appLayout);
+		this.add(healthLabel);
+		this.add(attackLabel);
+		this.add(healthLabel);
+		this.add(nameLabel);
+		this.add(evolvableLable);
+		this.add(modiferLabel);
+		this.add(iconLabel);
+		this.add(numberLabel);
+		this.add(evolvableBox);
+		this.add(nameField);
+		this.add(numberField);
+		this.add(attackField);
+		this.add(healthField);
+		this.add(modifierField);
+		this.add(descriptionArea);
+		this.add(typeArea);
+		this.add(saveButton);
+		this.add(clearButton);
+		this.add(pokedexDropdown);
+		this.add(firstType);
+		this.add(secondType);
+		
 	}
 	
 	private void updatePokedexInfo(int index)
