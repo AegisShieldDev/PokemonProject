@@ -32,10 +32,26 @@ public class PokemonController
 		return false;
 	}
 	
+	public String [] convertPokedex()
+	{
+		String [] names = new String [pokedex.size()];
+		
+		for (int index = 0; index < pokedex.size(); index++)
+		{
+			names[index] = pokedex.get(index).getName();
+		}
+		
+		return names;
+	}
+	
 	public void buildPokedex()
 	{
-		
 		pokedex.add(new Xatu(1,""));
+		pokedex.add(new Natu(1,""));
+		pokedex.add(new Lucario(1,""));
+		pokedex.add(new Riolu(1,""));
+		pokedex.add(new Staraptor(1,""));
+		pokedex.add(new Alakazam(1,""));
 	}
 	
 	public void start()
