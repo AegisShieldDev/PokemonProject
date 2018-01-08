@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>30</y>
+      <x>540</x>
+      <y>90</y>
       <w>270</w>
       <h>220</h>
     </coordinates>
@@ -25,8 +25,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>80</y>
+      <x>140</x>
+      <y>140</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
@@ -40,8 +40,8 @@ methods/constructors</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>160</x>
-      <y>0</y>
+      <x>140</x>
+      <y>60</y>
       <w>190</w>
       <h>70</h>
     </coordinates>
@@ -54,14 +54,15 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1240</x>
-      <y>330</y>
+      <x>1220</x>
+      <y>510</y>
       <w>270</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Flying/
 --
 bg=cyan
+transparency=1
 
 + acrobatics(int) : String
 + fly(int) : String
@@ -71,8 +72,8 @@ bg=cyan
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>170</y>
+      <x>140</x>
+      <y>230</y>
       <w>270</w>
       <h>140</h>
     </coordinates>
@@ -86,14 +87,15 @@ bg=cyan
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>340</y>
+      <x>0</x>
+      <y>400</y>
       <w>270</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Fighting/
 --
 bg=orange
+transparency=1
 
 + closeCombat(int) : String
 + throwAuraSphere(int) : String
@@ -103,14 +105,14 @@ bg=orange
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1240</x>
-      <y>480</y>
+      <x>1220</x>
+      <y>670</y>
       <w>270</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Psychic/
 --
-bg=pink
+bg=magenta
 
 + psyshock(int) : String
 + psychoCut(int) : String
@@ -120,8 +122,8 @@ bg=pink
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>560</y>
+      <x>310</x>
+      <y>570</y>
       <w>270</w>
       <h>70</h>
     </coordinates>
@@ -129,14 +131,16 @@ bg=pink
 --
 
 --
-+ Lucario(int, String)</panel_attributes>
++ Lucario(int, String)
+
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>710</x>
-      <y>600</y>
+      <x>690</x>
+      <y>690</y>
       <w>270</w>
       <h>80</h>
     </coordinates>
@@ -144,37 +148,38 @@ bg=pink
 --
 
 --
+bg=cyan
 + Natu(int, String)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
-      <y>390</y>
+      <x>950</x>
+      <y>560</y>
       <w>290</w>
-      <h>270</h>
+      <h>190</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 bg=cyan</panel_attributes>
-    <additional_attributes>270.0;10.0;10.0;250.0</additional_attributes>
+    <additional_attributes>270.0;10.0;10.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>670</y>
+      <x>810</x>
+      <y>760</y>
       <w>30</w>
-      <h>80</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>240</y>
+      <x>570</x>
+      <y>300</y>
       <w>120</w>
       <h>230</h>
     </coordinates>
@@ -184,32 +189,155 @@ bg=cyan</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
-      <y>390</y>
+      <x>950</x>
+      <y>560</y>
       <w>290</w>
-      <h>400</h>
+      <h>290</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 bg=cyan</panel_attributes>
-    <additional_attributes>270.0;10.0;10.0;380.0</additional_attributes>
+    <additional_attributes>270.0;10.0;10.0;270.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>430</y>
-      <w>190</w>
-      <h>150</h>
+      <x>1000</x>
+      <y>450</y>
+      <w>240</w>
+      <h>320</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 bg=pink</panel_attributes>
-    <additional_attributes>170.0;130.0;10.0;10.0</additional_attributes>
+    <additional_attributes>220.0;300.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
-      <y>550</y>
+      <x>950</x>
+      <y>720</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+bg=pink</panel_attributes>
+    <additional_attributes>270.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>430</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Alakazam
+--
+
+--
++ Alakazam(int, String)
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>790</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Xatu
+--
+
+--
+bg=cyan
++ Xatu(int, String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>580</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Staraptor
+--
+
+--
++ Staraptor(int, String)
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>470</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Riolu
+--
+
+--
++ Riolu(int, String)
+
+bg=orange
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>300</y>
+      <w>60</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;440.0;40.0;440.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>300</y>
+      <w>100</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>310</y>
+      <w>90</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>540</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>740</y>
       <w>290</w>
       <h>110</h>
     </coordinates>
@@ -218,138 +346,22 @@ bg=pink</panel_attributes>
     <additional_attributes>270.0;10.0;10.0;90.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>810</x>
-      <y>410</y>
-      <w>270</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>pokemon.model :: Alakazam
---
-
---
-+ Alakazam(int, String)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>710</x>
-      <y>730</y>
-      <w>270</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>pokemon.model :: Xatu
---
-
---
-+ Xatu(int, String)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>810</x>
-      <y>320</y>
-      <w>270</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>pokemon.model :: Staraptor
---
-
---
-+ Staraptor(int, String)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>330</x>
-      <y>410</y>
-      <w>270</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>pokemon.model :: Riolu
---
-
---
-+ Riolu(int, String)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>240</y>
-      <w>170</w>
-      <h>380</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;150.0;360.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>680</x>
-      <y>240</y>
-      <w>150</w>
-      <h>230</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;210.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>680</x>
-      <y>240</y>
-      <w>150</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>480</y>
-      <w>30</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>970</x>
-      <y>550</y>
-      <w>290</w>
-      <h>240</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.
-bg=pink</panel_attributes>
-    <additional_attributes>270.0;10.0;10.0;220.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>280</x>
-      <y>410</y>
+      <x>260</x>
+      <y>470</y>
       <w>70</w>
-      <h>210</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 bg=orange</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;50.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>410</y>
+      <x>260</x>
+      <y>470</y>
       <w>70</w>
       <h>60</h>
     </coordinates>
@@ -360,26 +372,27 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>330</y>
-      <w>190</w>
-      <h>90</h>
+      <x>990</x>
+      <y>560</y>
+      <w>250</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 bg=cyan</panel_attributes>
-    <additional_attributes>170.0;70.0;10.0;10.0</additional_attributes>
+    <additional_attributes>230.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>490</y>
+      <x>0</x>
+      <y>550</y>
       <w>270</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Steel/
 --
 bg=gray
+transparency=1
 
 + metalClaw(int) : String
 + flashCannon(int) : String
@@ -389,13 +402,331 @@ bg=gray
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>560</y>
+      <x>260</x>
+      <y>600</y>
       <w>70</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 bg=gray</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;40.0</additional_attributes>
+    <additional_attributes>10.0;30.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>840</x>
+      <y>720</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Psychic
+bg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>840</x>
+      <y>820</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Psychic
+bg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>880</x>
+      <y>610</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Normal
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>460</x>
+      <y>500</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Steel
+bg=dark_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>460</x>
+      <y>590</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Steel
+bg=dark_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>10</y>
+      <w>540</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>20</y>
+      <w>180</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>
+Pokemon Image
+
+JImage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>20</y>
+      <w>170</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>170</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Description</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>20</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>#000</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>50</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Type/Type
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>20</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>190</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Edit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>80</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Health</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1160</x>
+      <y>190</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Edit Abillity</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>140</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Enhancement
+________________</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>110</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Attack</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>20</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Evo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1340</x>
+      <y>310</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Save</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>310</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Reset</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>310</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Load</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>310</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>List</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>310</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>V</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>20</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Abilities</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>20</y>
+      <w>150</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>70</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Abilities</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>120</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Abilities</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>170</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Abilities</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
