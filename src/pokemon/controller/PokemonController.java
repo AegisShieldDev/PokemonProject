@@ -14,6 +14,7 @@ public class PokemonController
 	public PokemonController()
 	{
 		pokedex = new ArrayList<Pokemon>();
+		buildPokedex();
 		
 		PokemonFrame myFrame = new PokemonFrame(this);
 	}
@@ -44,14 +45,25 @@ public class PokemonController
 		return names;
 	}
 	
+	public void updateSelected(int selection, int health, int attack, boolean evolve, double modify, String name)
+	{
+		Pokemon selected = pokedex.get(selection);
+		
+		selected.setAttackPoints(attack);
+		selected.setCanEvolve(evolve);
+		selected.setEnhancementModifier(modify);
+		selected.setName(name);
+		selected.setHealthPoints(health);
+	}
+	
 	public void buildPokedex()
 	{
-		pokedex.add(new Xatu(1,""));
-		pokedex.add(new Natu(1,""));
-		pokedex.add(new Lucario(1,""));
-		pokedex.add(new Riolu(1,""));
-		pokedex.add(new Staraptor(1,""));
-		pokedex.add(new Alakazam(1,""));
+		pokedex.add(new Xatu());
+		pokedex.add(new Natu());
+		pokedex.add(new Lucario());
+		pokedex.add(new Riolu());
+		pokedex.add(new Staraptor());
+		pokedex.add(new Alakazam());
 	}
 	
 	public void start()
