@@ -1,0 +1,12 @@
+Xatu, 178, 65, 170, 0.5, false
+Natu, 177, 40, 120, 0.5, true
+Lucario, 448, 80, 225, 0.5, true
+Riolu, 447, 40, 105, 0.5, true
+Staraptor, 398, 85, 170, 0.5, false
+Alakazam, 65, 55, 185, 0.5, false
+Xatu, 178, 65, 170, 0.5, false
+Natu, 177, 40, 120, 0.5, true
+Lucario, 448, 70, 225, 0.5, true
+Riolu, 447, 40, 105, 0.5, true
+Staraptor, 398, 85, 170, 0.5, false
+Alakazam, 65, 55, 185, 0.5, false
