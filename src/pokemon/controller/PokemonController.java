@@ -23,14 +23,38 @@ public class PokemonController
 		return pokedex;
 	}
 	
-	public boolean isValidInteg(String input)
+	public boolean isValidInteger(String input)
 	{
-		return false;
+		boolean valid = false;
+		
+		try
+		{
+			Integer.parseInt(input);
+			valid = true;
+		}
+		catch(NumberFormatException error)
+		{
+			System.out.println("Error, invalid int");
+		}
+		
+		return valid;
 	}
 	
 	public boolean isValidDouble(String input)
 	{
-		return false;
+		boolean valid = false;
+		
+		try
+		{
+			Double.parseDouble(input);
+			valid = true;
+		}
+		catch(NumberFormatException error)
+		{
+			System.out.println("Error, invalid double");
+		}
+		
+		return valid;
 	}
 	
 	public String [] convertPokedex()
